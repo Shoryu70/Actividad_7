@@ -1,0 +1,44 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-image: url(https://i.ytimg.com/vi/g_J1dqoXDKI/maxresdefault.jpg);
+    background-size: cover;
+}
+
+main {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.formulario h1,
+.formulario p {
+    text-align: center;
+}
+
+
+.formulario form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario input {
+    width: 30%;
+    border-radius: 10px;
+    padding: 1rem;
+    border: none;
+}
+
+.formulario input[type=submit] {
+    background-color: #561fbc;
+    color: white;
+    cursor: pointer;
+}
+
+.formulario input[type=submit]:hover {
+    opacity: .8;
+}
+
